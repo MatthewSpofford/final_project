@@ -29,20 +29,22 @@ const loadEvents = function(){
             td.appendChild(item)
             tr.appendChild(td)
             
-            item = document.createElement("button")
-            item.innerHTML = "Click for ics"
+            item = document.createElement("a")
+            let button = document.createElement("button")
+            button.innerHTML = "Click for ics"
+            
+            item.appendChild(button)
 
             //initializer(json[count])            
-
+            let file = createFile(json[count])
+            item.setAttribute("href", file)
+            
+            item.setAttribute("download", "event.ics")
 
             td2.appendChild(item)
             tr.appendChild(td2)
-            item.href = createFile(json[count])
-            item.download = "event.ics"
             
             table.append(tr)
-            item.click()
-
         }
       })
 }
