@@ -1,30 +1,20 @@
-# webware-final-project
+A brief description of what you created, and a link to the project itself (two paragraphs of text)
+Any additional instructions that might be needed to fully use your project (login information etc.)
+An outline of the technologies you used and how you used them.
+What challenges you faced in completing the project.
+What each group member was responsible for designing / developing.
+A link to your project video.
 
-Empty project.
+1. Our project, when3meet is a tool to help people plan their schedules, make events, and coordinate those events with other users. On the home page, each user has access to a personal calendar which contains all of their events. Each user also has access to the events they are signed up for and their details in list form as well. From the home page, personal events can be added to a user's private calendar.
 
-## How to run on localhost
+On the events page, a user can set up events involving more people. The user will have the option to add attendees to events as well as a range of possible dates and times. Other users can then reply with their preferences so that the organizer of the event can finalize the time. Once created, public events are automatically added to all invited user's personal calendars. When3meet is hosted on https://cs4241-final-project-group-7.herokuapp.com/
 
-First install dependencies:
+2. To use the site, first create an account with a username and password and then sign in. The rest is pretty self explanatory.
 
-```sh
-npm install
-```
+3. Technologies
 
-To run in dev mode mode:
+4. Challenges
 
-```sh
-npm start
-```
+5. Task breakdown
 
-Then go to http://localhost:8080
-
-To create a production build:
-
-```sh
-npm run build
-```
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
-
+6. Project video link
